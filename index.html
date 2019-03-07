@@ -21,13 +21,13 @@
 <meta charset="UTF-8">
 
 
-<title>Machine Learning (2019, Spring) - HW1</title>
+<title>Machine Learning (2019, Spring) - HW5</title>
 
 <xmp theme="united" style="display:none;">
 
 
 
-# <p class="text-h">Homework 1 - PM2.5 Prediction</p>
+# <p class="text-h">Homework 5 - Adversarial Attack</p>
 
 ### <p class="text-hh">Announcements</p>
 
@@ -47,7 +47,7 @@
 
 #### 3/9
 
-* HW1小老師表單連結已公布! 請注意表單僅統計至3/13 21:59:59(GMT+8)。-->
+* HW1小老師表單連結已公布! 請注意表單僅統計至3/13 21:59:59(GMT+8)。
 
 #### 3/6 
 * HW1 Virtual Environment release <a href="https://goo.gl/6HQcqH" target="_blank"><i class="fa fa-download"></i></a>
@@ -68,7 +68,11 @@
 #### 2/21
 
 * HW1 release!
-* 手把手 release! 
+* 手把手 release!-->
+
+#### 3/28
+* HW5 release!
+* Simple baseline release!
 
 <!--
 <hr>
@@ -88,48 +92,41 @@
 
 
 ### <p class="text-hh">Links</p>
-* 作業投影片 <a href="https://docs.google.com/presentation/d/1gM32ovHHH6Dv4I3Ow0P3XXz1savkBp8jWSqSVp0Xwg4/edit#slide=id.g4cd6560e29_0_10/" target="_blank"><i class="fa fa-book"></i></a>
-* 手把手投影片 <a href="https://docs.google.com/presentation/d/1TkPQoOPyDY9IzzuaVsYq1E26D1NTmi_QA9S9c-rw9K8/edit#slide=id.g5047f99cc6_0_0" target="_blank"><i class="fa fa-book"></i></a>
+* 作業投影片 <a href="https://docs.google.com/presentation/d/1RdBdCspgjXMnH3qzTS_m4RoQ0sT67VXoT-Oj7MERopA/edit?usp=sharing" target="_blank"><i class="fa fa-book"></i></a>
+<!--* 手把手投影片 <a href="https://docs.google.com/presentation/d/1TkPQoOPyDY9IzzuaVsYq1E26D1NTmi_QA9S9c-rw9K8/edit#slide=id.g5047f99cc6_0_0" target="_blank"><i class="fa fa-book"></i></a> -->
 * Kaggle 連結 <a href="https://www.kaggle.com/c/ml2019spring-hw1" target="_blank"><i class="fa fa-trophy"></i></a>
-* General Tutorial 投影片 <a href="https://goo.gl/Tvsy1i" target="_blank"><i class="fa fa-book"></i></a>
-* Github Repo 表單 <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_BL_NZJVVL-xzsDXBVQtTShpwih07SbgRmQrYhmzrZHx7yQ/viewform" target="_blank"><i class="fa fa-pencil-square-o"></i></a>
-* Report 模板 <a href="https://docs.google.com/document/d/1n9GeHikNOUeckA6WV-gDASSg_gqzgvoqQMZX0QJv1xc/edit" target="_blank"><i class="fa fa-file-text"></i></a>
-* 遲交表單 <a href="https://docs.google.com/forms/d/1Ui_-NaLggaOtHYtcH4Zymz7ZtOT_n8IeWDP6rv78FHA/viewform?edit_requested=true" target="_blank"><i class="fa fa-pencil-square-o"></i></a>
-* Facebook Group <a href="https://www.facebook.com/groups/314613059175222/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+* Report 模板 <a href="https://docs.google.com/document/d/1stPKCTjNqQ5WeHuRGn5xgHftRwmbLiWHB0_s3HXjctA/edit?usp=sharing" target="_blank"><i class="fa fa-file-text"></i></a>
+* 遲交表單 <a href="https://docs.google.com/forms/u/3/d/1DztKF3OuLX9rsuAKg6rzqMZTzUqXudzyhYu0evUrQuM/viewform?edit_requested=true" target="_blank"><i class="fa fa-pencil-square-o"></i></a>
+<!--* Facebook Group <a href="https://www.facebook.com/groups/314613059175222/" target="_blank"><i class="fa fa-facebook-square"></i></a> -->
 <!--* 小老師表單 <a href="https://goo.gl/feHp6o" target="_blank"><i class="fa fa-pencil-square-o"></i></a>-->
 
 <hr>
 
 
 ### <p class="text-hh">Deadlines</p>
-* Simple Bonus Deadline: 02/28/2019 23:59:59  (GMT+8)
-* Kaggle Deadline: 03/07/2019 11:59:59  (GMT+8)
-* Github Deadline: 03/08/2019 23:59:59  (GMT+8)
+* Early Baseline Deadline: 04/11/2019 23:59:59  (GMT+8)
+* Kaggle Deadline: 04/26/2019 23:59:59  (GMT+8)
+* Github Deadline: 04/26/2019 23:59:59  (GMT+8)
 
 <hr>
 
-### <p class="text-hh">Assignment Regulation</p>
+### <p class="text-hh">Regulations</p>
 
-* ALL code must be written in python3.6 
-* For `hw1.sh` :
-  * ALL python standard library is permitted (e.g. sys, csv, time)
+* Only python3.6 is available!
+  * ALL python standard library is permitted (e.g. os, sys, csv, time)
   * numpy >= 1.14
   * scipy == 1.2.1
-  * pandas == 0.24.1
-
-* For `hw1_best.sh` :
-  * Meet the higher score you choose in kaggle
-  * ALL toolkit is permitted (however with some version limitation)
+  * pandas >= 0.24.1
   * Tensorflow == 1.12.0
   * Pytorch == 1.0.1
-  * Keras == 2.2.4
-  * Scikit-learn == 0.20.2
+  * scikit-learn == 0.20.2
+  * 不得使用現成包裝好套件(cleverhans)
 
 <hr>
 
 ### <p class="text-hh">FAQ</p>
 
-<p>Q1：請問kaggle的組隊人數上限？</p>
+<!--<p>Q1：請問kaggle的組隊人數上限？</p>
 <p>A1：hw1為個人作業，不用在kaggle上進行組隊。</p>
 <p>Q2: 如果只有實作 gradient descent，hw1.sh跟hw1_best.sh可以繳交同一份script嗎？</p>
 <p>A2: 可以的。</p>
@@ -142,7 +139,7 @@
 <p>Q4：所以hw1_best.sh可能會用到的套件也要寫信跟助教確認嗎？</p>
 <p>A4：不用！只有hw1.sh中若會使用到numpy, scipy, pandas以外的套件才需要寫信。</p>
 <p>Q5：hw1.sh 可以 import sys 嗎？</p>
-<p>A5：sys 屬於 python standard library，所以是可以使用的。其他可以使用的內建套間可以參照：<a href="https://docs.python.org/3/library/index.html">python standard library</a>。</p>
+<p>A5：sys 屬於 python standard library，所以是可以使用的。其他可以使用的內建套間可以參照：<a href="https://docs.python.org/3/library/index.html">python standard library</a>。</p>-->
 
 
 <hr>
